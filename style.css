@@ -1,0 +1,42 @@
+body{
+    background-image: url(https://c8.alamy.com/comp/2JDTXBF/eid-al-adha-banner-concept-eid-prayers-mosque-with-animal-goat-sheep-and-cow-design-islamic-festival-of-sacrifice-eid-ul-adha-or-bakra-eid-2JDTXBF.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 100px;
+    color: lawngreen;
+}
+.countdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 20px;
+}
+.box{
+    height: 100px;
+    min-width: 100px;
+    border: 3px solid yellow    ;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: lawngreen;
+}
+.box > span{
+    font-size: 30px;
+}
+.counter{
+    font-size: 25px;
+}
+.box:hover{
+    background-color: lawngreen;
+    color: azure;
+    cursor: pointer;
+}
